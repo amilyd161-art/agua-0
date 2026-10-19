@@ -1,31 +1,49 @@
 /* ↓ EN LAS PRIMERA LÍNEA PODEMOS ENLAZAR LAS FUENTES QUE USAREMOS ↓ */
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:wght@400..900&display=swap');
 
 /* ↓ A PARTIR DE ESE PUNTO PODEMOS LLAMAR TODAS LAS PROPIEDADES DE NUESTRAS CLASES Y ID´S ↓ */
 body {
-  background-color: #ffaffc;
+  background-color: #f4efe6;
+  color: #1f1f1f;
+  font-family: 'Lora', serif;
   margin: 0;
   padding: 0;
 }
 
 h1 {
-  /* font-family: 'Nunito Sans';*/
-  font-family: 'Honk', system-ui;
-  font-weight: 500;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
   margin: 0;
   position: absolute;
-  font-size: 20vh;
+  font-size: 10vh;
+  text-align: center;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
 
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  max-width: 38em;
+  margin: 1.5em auto 0.5em auto;
+  padding: 0 1.5em;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+  max-width: 38em;
+  margin: 1em auto;
+  padding: 0 1.5em;
+}
+
 a {
-  color: blue;
+  color: #8b1e3f;
   text-decoration: none;
 }
 
 a:hover {
-  background-color: #36fcff;
+  background-color: #8b1e3f;
+  color: #f4efe6;
 }
